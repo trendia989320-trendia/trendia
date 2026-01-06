@@ -1,0 +1,78 @@
+/// Mock Notifications Data
+/// Contains static notification data
+class MockNotificationsData {
+  static final List<Map<String, dynamic>> notifications = [
+    {
+      'avatar': '👨',
+      'name': '@johndoe',
+      'action': 'liked your post',
+      'postImage': '🎬',
+      'timestamp': '2m ago',
+      'icon': '❤️',
+      'color': '🔴',
+    },
+    {
+      'avatar': '👩',
+      'name': '@sarahcodes',
+      'action': 'started following you',
+      'postImage': null,
+      'timestamp': '15m ago',
+      'icon': '👤',
+      'color': '🔵',
+    },
+    {
+      'avatar': '🧑',
+      'name': '@rajpatel',
+      'action': 'commented: Amazing work!',
+      'postImage': '📚',
+      'timestamp': '1h ago',
+      'icon': '💬',
+      'color': '🟦',
+    },
+    {
+      'avatar': '👩‍🦰',
+      'name': '@emmaw',
+      'action': 'shared your video',
+      'postImage': '🚀',
+      'timestamp': '3h ago',
+      'icon': '🔗',
+      'color': '🟩',
+    },
+    {
+      'avatar': '🧑',
+      'name': '@dev_vibes',
+      'action': 'viewed your story',
+      'postImage': null,
+      'timestamp': '5h ago',
+      'icon': '👁️',
+      'color': '🟪',
+    },
+    {
+      'avatar': '👨',
+      'name': '@coder_life',
+      'action': 'liked your post',
+      'postImage': '💻',
+      'timestamp': '8h ago',
+      'icon': '❤️',
+      'color': '🔴',
+    },
+    {
+      'avatar': '👩',
+      'name': '@tech_queen',
+      'action': 'started following you',
+      'postImage': null,
+      'timestamp': '10h ago',
+      'icon': '👤',
+      'color': '🔵',
+    },
+    {
+      'avatar': '🧑',
+      'name': '@web_master',
+      'action': 'commented: Love this! 🔥',
+      'postImage': '🌐',
+      'timestamp': '12h ago',
+      'icon': '💬',
+      'color': '🟦',
+    },
+  ];
+}
